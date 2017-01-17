@@ -1,6 +1,6 @@
 {
   "name": "release-history",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "History markdown from git tags",
   "bin": {
     "history": "./bin/history.js"

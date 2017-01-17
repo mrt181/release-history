@@ -1,6 +1,6 @@
 {
   "name": "release-history",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "create a history markdown file from tags",
   "scripts": {
     "test": "ava --verbose",

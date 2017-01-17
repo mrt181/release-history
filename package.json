@@ -1,7 +1,10 @@
 {
   "name": "release-history",
-  "version": "0.0.1",
-  "description": "create a history markdown file from tags",
+  "version": "0.0.2",
+  "description": "History markdown from git tags",
+  "bin": {
+    "history": "./bin/history.js"
+  },
   "scripts": {
     "test": "ava --verbose",
     "xo": "xo"

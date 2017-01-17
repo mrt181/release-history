@@ -1,5 +1,12 @@
 
 
+###0.0.3
+
+ * fix: commit links #2; updated HISTORY.md [0b4d524](https://github.com/stbaer/release-history/commit/0b4d5240671840cbb81be0ee8cf27a3c66913480)
+ * fix: commit links [9397286](https://github.com/stbaer/release-history/commit/9397286bb63d90672ba09c9cdf89a33f5e75269c)
+ * added remote url; adjusted links to commits [b53ce61](https://github.com/stbaer/release-history/commit/b53ce61d3db391a774539560f81c7c052de796e1)
+ * self test: added history script; generated History.md [d3d18ef](https://github.com/stbaer/release-history/commit/d3d18efbd81e92dd3ce12098166d0fba21d738c4)
+
 ###0.0.2
 
  * added tests; removed console.log; [001b048](https://github.com/stbaer/release-history/commit/001b0486a5e6b1f3598113e749dba7233092bdfe)

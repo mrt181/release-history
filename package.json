@@ -1,11 +1,12 @@
 {
   "name": "release-history",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "History markdown from git tags",
   "bin": {
     "history": "./bin/history.js"
   },
   "scripts": {
+    "history": "./bin/history.js -e Merge -e 'bumped version' -e '(testing)' -c https://github.com/stbaer/release-history/commit -o History.md",
     "test": "ava --verbose",
     "xo": "xo"
   },
@@ -23,6 +24,7 @@
     "args": "^2.2.3",
     "chalk": "^1.1.3",
     "git-commits": "^1.2.0",
+    "remote-origin-url": "^0.5.2",
     "shelljs": "^0.7.6",
     "tagged-versions": "^1.2.0"
   },

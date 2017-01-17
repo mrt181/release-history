@@ -6,6 +6,7 @@
     "history": "./bin/history.js"
   },
   "scripts": {
+    "history": "./bin/history.js -e Merge -e bumped version -o History.md",
     "test": "ava --verbose",
     "xo": "xo"
   },

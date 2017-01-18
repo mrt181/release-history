@@ -1,5 +1,13 @@
 
 
+###Release 0.0.7
+>*January 18, 2017*
+ * added releaseConfig for gf-release [d3a760b](git@github.com:stbaer/release-history.git/d3a760ba42fb130d06b2445112b6770867c03b60)
+ * added new line after date in history [b1759d9](git@github.com:stbaer/release-history.git/b1759d92c70ad09c0615dabaff60abfba2aa83e1)
+ * added .editorconfig file [f4ea493](git@github.com:stbaer/release-history.git/f4ea493a167d807bd4c8fbd25c24b14108fece8f)
+
+
+
 ###Release 0.0.5
 >*January 18, 2017*
  * renamed the bin to release-history; xo fixes; [e7a6f6a](https://github.com/stbaer/release-history/commit/e7a6f6a35f8bb8d81c1bd1ff0567ee28b269faf8)
@@ -25,5 +33,3 @@
  * initial README.md [022425e](https://github.com/stbaer/release-history/commit/022425e608e58c82bf258e81d4d4d96b3ccd0d06)
  * initial [2ca7819](https://github.com/stbaer/release-history/commit/2ca7819e9ef97c5703fbf5fee529b4635ab8a03d)
  * Initial commit [681b965](https://github.com/stbaer/release-history/commit/681b96525691cec9eb49bae0069d844d3331d109)
-
-

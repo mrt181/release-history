@@ -1,6 +1,6 @@
 {
   "name": "release-history",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "History markdown from git tags",
   "bin": {
     "release-history": "./bin/release-history.js"
@@ -29,6 +29,18 @@
     "remote-origin-url": "^0.5.2",
     "shelljs": "^0.7.6",
     "tagged-versions": "^1.2.0"
+  },
+  "releaseConfig": {
+    "versionFiles": [
+      "package.json"
+    ],
+    "commitMessagesExclude": [
+      "Merge tag",
+      "Merge branch 'release",
+      "bumped",
+      "(--)"
+    ],
+    "historyFile": "History.md"
   },
   "devDependencies": {
     "ava": "^0.17.0",

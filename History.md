@@ -2,10 +2,9 @@
 
 ###Release 0.0.8
 >*January 18, 2017*
- * history.md updated [a134213](git@github.com:stbaer/release-history.git/a1342136125b22bf6725674fe53aa73f671f3b1d)
- * only include commit links if a commit base url is set [7c2cfc6](git@github.com:stbaer/release-history.git/7c2cfc6c0acc8c21cdab6089ba0c65ac589cf19f)
 
-
+ * history.md updated [a134213](https://github.com/stbaer/release-history/commit/a1342136125b22bf6725674fe53aa73f671f3b1d)
+ * only include commit links if a commit base url is set [7c2cfc6](https://github.com/stbaer/release-history/commit/7c2cfc6c0acc8c21cdab6089ba0c65ac589cf19f)
 
 ###Release 0.0.7
 >*January 18, 2017*
@@ -49,3 +48,5 @@
  * initial README.md [022425e](https://github.com/stbaer/release-history/commit/022425e608e58c82bf258e81d4d4d96b3ccd0d06)
  * initial [2ca7819](https://github.com/stbaer/release-history/commit/2ca7819e9ef97c5703fbf5fee529b4635ab8a03d)
  * Initial commit [681b965](https://github.com/stbaer/release-history/commit/681b96525691cec9eb49bae0069d844d3331d109)
+
+

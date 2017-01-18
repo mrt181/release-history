@@ -7,7 +7,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "history": "./bin/history.js -e Merge -e 'bumped version' -e '(testing)' -c https://github.com/stbaer/release-history/commit -o History.md",
+    "history": "./bin/history.js -e Merge -e 'bumped version' -e '(testing)' -e (--) -c https://github.com/stbaer/release-history/commit -o History.md",
     "test": "ava --verbose",
     "xo": "xo"
   },

@@ -16,17 +16,15 @@ args.option('commit-base-url', 'set the remote url for linking to commits, defau
 
 const flags = args.parse(process.argv);
 const file = flags.o || 'History.md';
-let includeStrings, excludeStrings;
+let includeStrings;
+let excludeStrings;
 
 flags.i && (includeStrings = util.isArray(flags.i) ? flags.i : [flags.i]);
 flags.e && (excludeStrings = util.isArray(flags.e) ? flags.e : [flags.e]);
 
-remoteUrl( (err, url) => {
-    getHistoryMd({excludeStrings, includeStrings, url: (flags.c || url + 'commit')})
-        .then((str) => {
-            file && shellEx(`echo "${str}\n\n" > ${file}`, null, null, flags.d);
-        });
+remoteUrl((err, url) => {
+    getHistoryMd({excludeStrings, includeStrings, url: (flags.c || url + 'commit')}).then(str => {
+        file && shellEx(`echo "${str}\n\n" > ${file}`, null, null, flags.d);
+    });
 });
-
-
 

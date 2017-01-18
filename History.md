@@ -1,5 +1,9 @@
 
 
+###Release 0.0.4
+>*January 18, 2017*
+ * get-commits doesnt require the first argument anymore; added date to release in markdown; re-generated History.md [94c2028](https://github.com/stbaer/release-history/commit/94c2028e1c35b28411b83e66715c7ca5a556424b)
+
 ###Release 0.0.3
 >*January 17, 2017*
  * fix: commit links #2; updated HISTORY.md [0b4d524](https://github.com/stbaer/release-history/commit/0b4d5240671840cbb81be0ee8cf27a3c66913480)

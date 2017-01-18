@@ -1,11 +1,6 @@
 import test from 'ava';
 import getCommits from '../lib/get-commits';
 
-test('missing args', async t => {
-    const commits = await t.throws(getCommits());
-    t.is(commits, 'fromHash argument is missing');
-});
-
 test('get from hash', async t => {
     const commits = await getCommits(
         '022425e608e58c82bf258e81d4d4d96b3ccd0d06',
@@ -21,5 +16,3 @@ test('from hash to hash', async t => {
     t.is(typeof commits[0], 'object');
     t.is(commits.length, 2, 'should get 3 commits');
 });
-
-

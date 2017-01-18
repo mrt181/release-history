@@ -5,6 +5,7 @@
   "bin": {
     "history": "./bin/history.js"
   },
+  "main": "index.js",
   "scripts": {
     "history": "./bin/history.js -e Merge -e 'bumped version' -e '(testing)' -c https://github.com/stbaer/release-history/commit -o History.md",
     "test": "ava --verbose",
@@ -23,6 +24,7 @@
   "dependencies": {
     "args": "^2.2.3",
     "chalk": "^1.1.3",
+    "dateformat": "^2.0.0",
     "git-commits": "^1.2.0",
     "remote-origin-url": "^0.5.2",
     "shelljs": "^0.7.6",

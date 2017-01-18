@@ -3,7 +3,7 @@
   "version": "0.0.5",
   "description": "History markdown from git tags",
   "bin": {
-    "history": "./bin/release-history.js"
+    "release-history": "./bin/release-history.js"
   },
   "main": "index.js",
   "scripts": {

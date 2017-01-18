@@ -1,5 +1,9 @@
 
 
+###Release 0.0.5
+>*January 18, 2017*
+ * renamed the bin to release-history; xo fixes; [e7a6f6a](https://github.com/stbaer/release-history/commit/e7a6f6a35f8bb8d81c1bd1ff0567ee28b269faf8)
+
 ###Release 0.0.4
 >*January 18, 2017*
  * get-commits doesnt require the first argument anymore; added date to release in markdown; re-generated History.md [94c2028](https://github.com/stbaer/release-history/commit/94c2028e1c35b28411b83e66715c7ca5a556424b)

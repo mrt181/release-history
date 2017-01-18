@@ -22,7 +22,6 @@ flags.i && (includeStrings = util.isArray(flags.i) ? flags.i : [flags.i]);
 flags.e && (excludeStrings = util.isArray(flags.e) ? flags.e : [flags.e]);
 
 remoteUrl( (err, url) => {
-    console.log(url);
     getHistoryMd({excludeStrings, includeStrings, url: (flags.c || url + 'commit')})
         .then((str) => {
             file && shellEx(`echo "${str}\n\n" > ${file}`, null, null, flags.d);

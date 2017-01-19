@@ -3,8 +3,7 @@
 const util = require('util');
 const args = require('args');
 
-const getHistoryMd = require('./../lib/get-history-md');
-
+const getHistoryMd = require('../lib/get-history-md');
 const shellEx = require('../lib/helpers/ex').shellEx;
 
 args.option('dry-run', 'only log commands without executing them', false);
@@ -21,7 +20,8 @@ let excludeStrings;
 flags.i && (includeStrings = util.isArray(flags.i) ? flags.i : [flags.i]);
 flags.e && (excludeStrings = util.isArray(flags.e) ? flags.e : [flags.e]);
 
-getHistoryMd({excludeStrings, includeStrings, url: (flags.c)}).then(str => {
-    file && shellEx(`echo "${str}\n\n" > ${file}`, null, null, flags.d);
-});
+getHistoryMd({excludeStrings, includeStrings, url: flags.c})
+    .then(str => {
+        file && shellEx(`echo "${str}\n\n" > ${file}`, null, null, flags.d);
+    });
 

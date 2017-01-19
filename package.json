@@ -44,5 +44,16 @@
   "devDependencies": {
     "ava": "^0.17.0",
     "xo": "^0.17.1"
+  },
+  "xo": {
+    "esnext": true,
+    "rules": {
+      "indent": [
+        "error",
+        4
+      ],
+      "no-unused-expressions": "off",
+      "unicorn/no-process-exit": "off"
+    }
   }
 }

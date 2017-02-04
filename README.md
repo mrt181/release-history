@@ -8,11 +8,13 @@
 Install:
 
 ```bash
-npm i -g release-history
+$ npm i -g release-history
 ```
 
 CLI:
 ```bash
+$ release-history --help
+
 Usage: release history.js [options] [command]
 
   Commands:
@@ -32,4 +34,4 @@ Usage: release history.js [options] [command]
 
 ## Licence
 
-MIT, see [LICENSE.md](https://github.com/stbaer/release-history/blob/master/LICENSE.md) for details.
+MIT, see [LICENSE](https://github.com/stbaer/release-history/blob/master/LICENSE) for details.

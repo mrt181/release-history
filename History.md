@@ -1,14 +1,21 @@
 
 
+###Release 0.0.10
+>*February 4, 2017*
+
+ * fix: merge was not fully resolved [1e9fccb](https://github.com/stbaer/release-history/commits/1e9fccbb8b8243b7989ec5af13b1991bab1709f4)
+ * added commitBaseUrl to releaseConfig in package.json [3d83193](https://github.com/stbaer/release-history/commits/3d83193a58c211d7bdd74578a9fb1a08bee8191f)
+ * Updated README.md [3d72c00](https://github.com/stbaer/release-history/commits/3d72c00324ddde19488e8b70525a26b34b5df067)
+ * fix: link to license [252c541](https://github.com/stbaer/release-history/commits/252c541db53137c37389626b5678365ba608fb13)
+
+
+
 ###Release 0.0.9
 >*February 4, 2017*
 
- * Merge branch 'develop' of github.com:stbaer/release-history into develop 
- * Updated README.md and cli help output 
- * Updated README.md and cli help output 
- * updated deps 
-
-
+ * Updated README.md and cli help output [4b82c71](https://github.com/stbaer/release-history/commit/4b82c71c5930b793d91399960f0b0894c841daef)
+ * Updated README.md and cli help output [51b2b5b](https://github.com/stbaer/release-history/commit/51b2b5b61a529189dc8260354f60cc7882a0ecd0)
+ * updated deps [007428c](https://github.com/stbaer/release-history/commit/007428ca760d90e48acf97a63793345a42307d53)
 
 ###Release 0.0.8
 >*January 18, 2017*

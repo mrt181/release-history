@@ -32,4 +32,4 @@ Usage: release history.js [options] [command]
 
 ## Licence
 
-MIT, see [LICENSE.md](https://github.com/stbaer/release-history/blob/master/LICENSE.md) for details.
+MIT, see [LICENSE](https://github.com/stbaer/release-history/blob/master/LICENSE) for details.

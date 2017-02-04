@@ -1,5 +1,15 @@
 
 
+###Release 0.0.10
+>*February 4, 2017*
+
+ * fix: merge was not fully resolved [1e9fccb](https://github.com/stbaer/release-history/commits/1e9fccbb8b8243b7989ec5af13b1991bab1709f4)
+ * added commitBaseUrl to releaseConfig in package.json [3d83193](https://github.com/stbaer/release-history/commits/3d83193a58c211d7bdd74578a9fb1a08bee8191f)
+ * Updated README.md [3d72c00](https://github.com/stbaer/release-history/commits/3d72c00324ddde19488e8b70525a26b34b5df067)
+ * fix: link to license [252c541](https://github.com/stbaer/release-history/commits/252c541db53137c37389626b5678365ba608fb13)
+
+
+
 ###Release 0.0.9
 >*February 4, 2017*
 
@@ -55,5 +65,3 @@
  * initial README.md [022425e](https://github.com/stbaer/release-history/commit/022425e608e58c82bf258e81d4d4d96b3ccd0d06)
  * initial [2ca7819](https://github.com/stbaer/release-history/commit/2ca7819e9ef97c5703fbf5fee529b4635ab8a03d)
  * Initial commit [681b965](https://github.com/stbaer/release-history/commit/681b96525691cec9eb49bae0069d844d3331d109)
-
-

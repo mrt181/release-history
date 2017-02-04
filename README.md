@@ -8,11 +8,13 @@
 Install:
 
 ```bash
-npm i -g release-history
+$ npm i -g release-history
 ```
 
 CLI:
 ```bash
+$ release-history --help
+
 Usage: release history.js [options] [command]
 
   Commands:

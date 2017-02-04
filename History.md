@@ -3,12 +3,9 @@
 ###Release 0.0.9
 >*February 4, 2017*
 
- * Merge branch 'develop' of github.com:stbaer/release-history into develop 
- * Updated README.md and cli help output 
- * Updated README.md and cli help output 
- * updated deps 
-
-
+ * Updated README.md and cli help output [4b82c71](https://github.com/stbaer/release-history/commit/4b82c71c5930b793d91399960f0b0894c841daef)
+ * Updated README.md and cli help output [51b2b5b](https://github.com/stbaer/release-history/commit/51b2b5b61a529189dc8260354f60cc7882a0ecd0)
+ * updated deps [007428c](https://github.com/stbaer/release-history/commit/007428ca760d90e48acf97a63793345a42307d53)
 
 ###Release 0.0.8
 >*January 18, 2017*
@@ -58,3 +55,5 @@
  * initial README.md [022425e](https://github.com/stbaer/release-history/commit/022425e608e58c82bf258e81d4d4d96b3ccd0d06)
  * initial [2ca7819](https://github.com/stbaer/release-history/commit/2ca7819e9ef97c5703fbf5fee529b4635ab8a03d)
  * Initial commit [681b965](https://github.com/stbaer/release-history/commit/681b96525691cec9eb49bae0069d844d3331d109)
+
+

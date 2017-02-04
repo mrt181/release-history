@@ -12,7 +12,7 @@ npm i -g release-history
 ```
 
 CLI:
-```
+```bash
 Usage: release history.js [options] [command]
 
   Commands:

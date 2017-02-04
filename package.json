@@ -39,6 +39,7 @@
       "bumped",
       "(--)"
     ],
+    "commitBaseUrl": "https://github.com/stbaer/release-history/commits",
     "historyFile": "History.md"
   },
   "devDependencies": {

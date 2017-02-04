@@ -1,6 +1,6 @@
 {
   "name": "release-history",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "History markdown from git tags",
   "bin": {
     "release-history": "./bin/release-history.js"
@@ -22,12 +22,12 @@
   },
   "homepage": "https://github.com/stbaer/release-history#README",
   "dependencies": {
-    "args": "^2.2.3",
+    "args": "^2.2.4",
     "chalk": "^1.1.3",
     "dateformat": "^2.0.0",
     "git-commits": "^1.2.0",
     "shelljs": "^0.7.6",
-    "tagged-versions": "^1.2.0"
+    "tagged-versions": "^1.3.0"
   },
   "releaseConfig": {
     "versionFiles": [
@@ -42,7 +42,18 @@
     "historyFile": "History.md"
   },
   "devDependencies": {
-    "ava": "^0.17.0",
+    "ava": "^0.18.1",
     "xo": "^0.17.1"
+  },
+  "xo": {
+    "esnext": true,
+    "rules": {
+      "indent": [
+        "error",
+        4
+      ],
+      "no-unused-expressions": "off",
+      "unicorn/no-process-exit": "off"
+    }
   }
 }

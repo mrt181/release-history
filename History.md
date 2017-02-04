@@ -1,11 +1,20 @@
 
 
+###Release 0.0.9
+>*February 4, 2017*
+
+ * Merge branch 'develop' of github.com:stbaer/release-history into develop 
+ * Updated README.md and cli help output 
+ * Updated README.md and cli help output 
+ * updated deps 
+
+
+
 ###Release 0.0.8
 >*January 18, 2017*
- * history.md updated [a134213](git@github.com:stbaer/release-history.git/a1342136125b22bf6725674fe53aa73f671f3b1d)
- * only include commit links if a commit base url is set [7c2cfc6](git@github.com:stbaer/release-history.git/7c2cfc6c0acc8c21cdab6089ba0c65ac589cf19f)
 
-
+ * history.md updated [a134213](https://github.com/stbaer/release-history/commit/a1342136125b22bf6725674fe53aa73f671f3b1d)
+ * only include commit links if a commit base url is set [7c2cfc6](https://github.com/stbaer/release-history/commit/7c2cfc6c0acc8c21cdab6089ba0c65ac589cf19f)
 
 ###Release 0.0.7
 >*January 18, 2017*
